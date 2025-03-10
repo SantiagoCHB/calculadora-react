@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css"; // Asegúrate de tener estilos básicos
 
 const App = () => {
   const [input, setInput] = useState("");
@@ -24,6 +25,7 @@ const App = () => {
 
   return (
     <div className="calculator">
+      <h1>Calculadora</h1>
       <div className="display">
         <input type="text" value={input} disabled />
       </div>
