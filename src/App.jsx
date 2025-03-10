@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './App.css'; // Asegúrate de tener estilos básicos
 
 const App = () => {
   const [input, setInput] = useState("");
