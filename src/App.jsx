@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <div className="calculator">
-      <h1>Calculadora</h1>
+      <h1>Calculadora React</h1>
       <div className="display">
         <input type="text" value={input} disabled />
       </div>
